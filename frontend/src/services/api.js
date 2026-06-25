@@ -1,7 +1,9 @@
 import axios from 'axios';
 
+import axios from 'axios';
+
 const api = axios.create({
-  baseURL: https://gardenfresh-secg.onrender.com,
+  baseURL: 'https://gardenfresh-secg.onrender.com/api',
   headers: { 'Content-Type': 'application/json' },
 });
 
